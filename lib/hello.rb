@@ -4,6 +4,12 @@ i=0
     yeild arr[i]
     i+=1
   end
+  arr
 end
 
 # call your method here!
+hello_t(['Tim','Tom','Jim','Kom']) {|name|
+    if name.start_with?("T")
+    puts "Hi, #{name}"
+    end
+}
